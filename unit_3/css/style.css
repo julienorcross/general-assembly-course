@@ -4,7 +4,7 @@
 }
 
 body {
-	background-image: url('./images/heroimage.svg');
+	background-image: url('../images/heroimage.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
