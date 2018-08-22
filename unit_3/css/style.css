@@ -4,7 +4,11 @@
 }
 
 body {
+<<<<<<< HEAD
 	background-image: url('../images/HeroImage.svg');
+=======
+	background-image: url('/unit_3/images/heroimage.jpg');
+>>>>>>> e400afb21f9c0d8d344a7bd2c7d7c2d9abaed431
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
