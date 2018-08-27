@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,500,700|Raleway:400,400i,700,700i');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url('../images/HeroImage.svg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 16px;
+	font-family: 'Raleway', helvetica, arial, sans-serif;
+}
+
+nav a, p, a {
+	margin: 1.5em auto;
+}
+
+h1 {
+	font-family: 'Oswald', helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 48px;
+	font-weight: 300;
+	margin: 12px;
+}
+
+nav a {
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-left: 30px;
+	padding-right: 30px;
+/*	letter-spacing: 4px;*/
+}
+
+p {
+	line-height: 1.5em;
+	width: 30em;
+}
+
+ul {
+	display: inline-block;
+	padding-left: 0px;
+	list-style: none;
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;
+	color: #cc006b;
+}
+
+a:hover {
+	color: #790040;
+}
+
+img {
+	width: 15%;
+	min-width: 100px;
+	max-width: 150px;
+}
+
+h2 {
+	font-family: 'Oswald', helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 900;
+	margin-bottom: 1.5em;
+}
+
+#footer {
+	font-size: 10px;
+	margin: 2em auto;
+}
