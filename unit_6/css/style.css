@@ -1,0 +1,105 @@
+ @import url("https://use.typekit.net/fyz0znv.css");
+
+</style>
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 12px;
+	font-family: "proxima-nova", helvetica, arial, sans-serif;
+}
+
+#wrapper {
+	max-width: 600px;
+	margin: 50px auto;
+}
+
+header {
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+#logo {
+	height: 57px;
+}
+
+.headerText {
+	float: right;
+	text-align: right;
+}
+
+h1, h2 {
+	font-family: 'freight-display-pro', georgia, serif;
+	font-weight: 300;
+}
+
+header h1 {
+	font-size: 30px;
+	line-height: 0em;
+}
+
+nav a {
+	font-size: 10px;
+	font-weight: 700;
+	margin-left: 30px;
+	line-height: 1.5em;
+	padding-left: 10px;
+}
+
+a {
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+  	opacity: .2;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.column {
+    float: left;
+    width: 32%;
+    padding-right: 2%;
+    text-align: left;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.projectTitle {
+	font-size: 16px;
+	line-height: 10px;
+	margin-top: 24px;
+}
+
+.projectType {
+	font-size: 10px;
+	letter-spacing: 3px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.projectThumbnail {
+	width: 100%;
+}
+
+footer {
+	margin: 50px 0;
+	font-size: 10px;
+}
